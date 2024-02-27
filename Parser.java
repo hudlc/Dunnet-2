@@ -8,7 +8,7 @@ public class Parser {
         Room currentRoom = gameState.getCurrentRoom();
 
         if (command[0].equals("help")) {
-            response = "1 - Type 'go' + 'direction' to somewhere (example:go left)\n";
+            response = "1 - Type 'go' + 'direction' to go somewhere (example:go left)\n";
             response += "2 - Type 'look around' to get information on the current room\n";
             response += "3 - Type 'exits' to se where you can go from that room\n";
             response += "4 - Type 'quit' to exit the game";
