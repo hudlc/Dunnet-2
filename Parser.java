@@ -29,7 +29,7 @@ public class Parser {
         }
 
         if (command[0].equals("exits")) {
-            response = "Your can go: ";
+            response = "You can go: ";
             Set<String> exits = currentRoom.listExits();
             for (String exit : exits) {
                 response += exit + ", ";
